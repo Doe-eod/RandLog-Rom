@@ -30,7 +30,6 @@ Die unten aufgeführten Argumente können ebenfalls nach Bedarf mitgegeben werde
 ```
 
 
-
 ## Programmstart mit Source-Code
 Wenn der Sourcode unter Linux oder Windows genutzt werden soll, einfach die folgenden Schritte durchführen:
 
@@ -40,12 +39,21 @@ Wenn der Sourcode unter Linux oder Windows genutzt werden soll, einfach die folg
 4. Datei RandLog-Rom.py ggf. mit Argumenten ausführen
 
 Insgesamt kann das Programm mit Python, wie folgt, ausgeführt werden:
-
 ```
 python3 RandLog-Rom.py
 ```
 
 Hier werden die Default-Werte genutzt.
+
+
+## Kompilierung mit PyInstaller
+Der Source-Code kann für Windows auch mit PyInstaller als EXE kompiliert werden. Dafür kann der folgende Kommand genutzt werden:
+```
+Powershell öffnen
+cd <PFAD ZUR RandLog-Rom.py-DATEI>
+pyinstaller --onefile .\RandLog-Rom.py
+```
+
 
 
 ## Argumente
