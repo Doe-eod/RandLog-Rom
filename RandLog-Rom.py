@@ -1,4 +1,4 @@
-# Datei asdfghjkl.py
+# Datei RandLog-Rom.py
 
 import sys
 import time
